@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div tag</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        #container
+        {
+            display: inline-flex;
+        }
+        .box
+        {
+            width: 300px;
+            height: 400px;
+            /* background-color: rgb(7, 247, 47); */
+            overflow: hidden;
+            border: 2px solid green;
+            margin-bottom: 10px;
+            text-align: justify;
+            padding: 20px;
+            margin-right: 20px;
+        }
+        /* screen size is 1200px(3x3x3x3) for 14 inch screen  */
+        /* space around the content inside is called padding while margin is outside space between elements */
+        /* core attribute class and id attribute */
+        #box1{
+            background-color: yellow;
+        }
+        #box2{
+            background-color: pink;
+        }
+        #box3{
+            background-color:green;
+        }
+        #box4{
+            background-color:orange;
+        }
+        .box img{
+            width: 100%;
+            height: 150px;
+            border-radius: 20px;
+        }
+        .box h2{
+            text-align: center;
+            margin: 10px;
+        }
+        .mybutton{
+            display: block;
+            margin-top: 10px;
+            text-decoration: none;
+            color: white;
+            font-family: arial;
+            background-color: red;
+            padding: 10px 20px;
+            border-radius:20px;
+
+        }
+        .mybutton:hover{
+            background-color: blue;
+        }
+        /* anchor tag is inline margin padding doesnt work to use make display inline block  */
+    </style>
+</head>
+<body>
+<div id="container">
+    <div class="box" id="box1">
+    <!-- img tag is inline tag -->
+    <div class="img">
+        <img src="./tiger.jpg" alt="tiger-pic">
+    </div>
+    <h2>This is heading</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid iure recusandae impedit qui dolor accusamus itaque laboriosam? Dolor porro laborum ab totam Lorem ipsum 
+     </p>
+     <div class="image" style="text-align: center;">
+     <a href="" class="mybutton">Read More</a>
+    </div>
+</div>
+<div class="box" id="box2">
+    <h2>This is heading</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid iure recusandae impedit qui dolor accusamus itaque laboriosam? Dolor porro laborum ab totam dolore corporis iure quas officiis nam eligendi nobis enim, beatae accusantium omnis cum expedita aliquid fugiat in, consequuntur modi natus culpa veniam. Unde blanditiis impedit voluptatum odit?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi consequatur cumque earum culpa error quisquam veniam deserunt ad? Ratione asperiores distinctio explicabo culpa ab, architecto ipsum delectus sint. Omnis officia incidunt sequi perferendis molestiae distinctio amet, dolores illum modi. Est ab itaque, doloremque corporis natus deserunt dolorem officia, quae eaque consequuntur aperiam excepturi similique dolore incidunt quis sequi, minus velit dolorum labore ipsum quos rerum nihil. Fuga ratione quas saepe voluptates, maiores exercitationem dolore sint quis voluptas sunt quisquam illum magni, odio repellendus officiis expedita cum nesciunt. Minus, reprehenderit doloribus voluptas adipisci deserunt quasi blanditiis magni quo vero cumque voluptatem!</p>
+</div>
+<div class="box" id="box3">
+    <h2>This is heading</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid iure recusandae impedit qui dolor accusamus itaque laboriosam? Dolor porro laborum ab totam dolore corporis iure quas officiis nam eligendi nobis enim, beatae accusantium omnis cum expedita aliquid fugiat in, consequuntur modi natus culpa veniam. Unde blanditiis impedit voluptatum odit?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi consequatur cumque earum culpa error quisquam veniam deserunt ad? Ratione asperiores distinctio explicabo culpa ab, architecto ipsum delectus sint. Omnis officia incidunt sequi perferendis molestiae distinctio amet, dolores illum modi. Est ab itaque, doloremque corporis natus deserunt dolorem officia, quae eaque consequuntur aperiam excepturi similique dolore incidunt quis sequi, minus velit dolorum labore ipsum quos rerum nihil. Fuga ratione quas saepe voluptates, maiores exercitationem dolore sint quis voluptas sunt quisquam illum magni, odio repellendus officiis expedita cum nesciunt. Minus, reprehenderit doloribus voluptas adipisci deserunt quasi blanditiis magni quo vero cumque voluptatem!</p>
+</div>
+<div class="box" id="box4">
+    <h2>This is heading</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid iure recusandae impedit qui dolor accusamus itaque laboriosam? Dolor porro laborum ab totam dolore corporis iure quas officiis nam eligendi nobis enim, beatae accusantium omnis cum expedita aliquid fugiat in, consequuntur modi natus culpa veniam. Unde blanditiis impedit voluptatum odit?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi consequatur cumque earum culpa error quisquam veniam deserunt ad? Ratione asperiores distinctio explicabo culpa ab, architecto ipsum delectus sint. Omnis officia incidunt sequi perferendis molestiae distinctio amet, dolores illum modi. Est ab itaque, doloremque corporis natus deserunt dolorem officia,quaeeaque consequuntur aperiam excepturi similique dolore incidunt quis sequi, minus velit dolorum labore ipsum quos rerum nihil. Fuga ratione quas saepe voluptates, maiores exercitationem dolore sint quis voluptas sunt quisquam illum magni, odio repellendus officiis expedita cum nesciunt. Minus, reprehenderit doloribus voluptas adipisci deserunt quasi blanditiis magni quo vero cumque voluptatem!</p>
+</div>
+</div>
+</body>
+</html>
